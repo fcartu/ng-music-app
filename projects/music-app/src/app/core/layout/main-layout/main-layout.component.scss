@@ -15,3 +15,9 @@
   top: 0;
   z-index: 1;
 }
+
+mat-nav-list.a {
+  &.active {
+    filter: brightness(120%);
+  }
+}
