@@ -1,5 +1,11 @@
 # NgMusicApp
 
+[![build status](https://github.com/fcartu/ng-music-app/workflows/build/badge.svg)](https://github.com/fcartu/ng-music-app/actions)
+
+This is my first app as part of my angular learning path. It shows playlists and its songs extracted from Spotify's API.s
+
+I will be updating the project as soon as I learn more advanced topics in Angular like unit testing, e2e tests, routing, etc.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
 ## Development server
