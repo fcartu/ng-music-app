@@ -1,6 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { PlaylistsComponent } from './playlists.component';
+import { SpotifyService } from './spotify.service';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 
 describe('PlaylistsComponent', () => {
   let component: PlaylistsComponent;
@@ -8,7 +10,13 @@ describe('PlaylistsComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PlaylistsComponent ]
+      imports: [
+        HttpClientTestingModule
+      ],
+      declarations: [ PlaylistsComponent ],
+      providers: [
+        SpotifyService
+      ]
     })
     .compileComponents();
   }));
