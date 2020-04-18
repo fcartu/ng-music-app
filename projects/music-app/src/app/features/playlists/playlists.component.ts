@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { SpotifyService } from './spotify.service';
+import { Playlist } from './model/playlist';
 
 @Component({
   templateUrl: './playlists.component.html',
@@ -6,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PlaylistsComponent implements OnInit {
 
-  constructor() { }
+  playlists: Playlist[];
+
+  constructor(private spotifyService: SpotifyService) { }
 
   ngOnInit(): void {
+    this.spotifyService.getUserPlaylists()
+      .subscribe(data => this.playlists = data);
   }
 
 }

@@ -1,0 +1,384 @@
+{
+  "href": "https://api.spotify.com/v1/users/12124885411/playlists?offset=5&limit=10",
+  "items": [
+    {
+      "collaborative": false,
+      "description": "A special compilation of the highest quality nature sounds which are ideal for sleep, study and relaxation. No sudden noises here! Visit <a href=\"http://bit.ly/calmsounds\">Calmsound.com</a> for more, free nature sounds, videos and relaxing music. Let this playlist run throughout the night for a perfect night's sleep!",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/48sGg4EhRHdrPdurnSoUBH"
+      },
+      "href": "https://api.spotify.com/v1/playlists/48sGg4EhRHdrPdurnSoUBH",
+      "id": "48sGg4EhRHdrPdurnSoUBH",
+      "images": [
+        {
+          "height": null,
+          "url": "https://i.scdn.co/image/ab67706c0000da84334320c95cbcb4f3f52087d7",
+          "width": null
+        }
+      ],
+      "name": "Relaxing Nature Sounds",
+      "owner": {
+        "display_name": "Calmsound",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/calmsound"
+        },
+        "href": "https://api.spotify.com/v1/users/calmsound",
+        "id": "calmsound",
+        "type": "user",
+        "uri": "spotify:user:calmsound"
+      },
+      "primary_color": null,
+      "public": false,
+      "snapshot_id": "MTcxLDA5OTNkNzQ5ZWFhMTE4OGEwM2JkMTYxM2QyOTE3NGVmOTY4ZGU3NjE=",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/48sGg4EhRHdrPdurnSoUBH/tracks",
+        "total": 46
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:48sGg4EhRHdrPdurnSoUBH"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/0MjMeSCuSxbrJfTQVkM8v3"
+      },
+      "href": "https://api.spotify.com/v1/playlists/0MjMeSCuSxbrJfTQVkM8v3",
+      "id": "0MjMeSCuSxbrJfTQVkM8v3",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b27321ab0922c7e2adc4b9e74b89ab67616d0000b273d26add214b7985fb506b3b45ab67616d0000b273d48e80ce25a64d48d9881d64ab67616d0000b273f8c91d4e56e4f356186b58c2",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b27321ab0922c7e2adc4b9e74b89ab67616d0000b273d26add214b7985fb506b3b45ab67616d0000b273d48e80ce25a64d48d9881d64ab67616d0000b273f8c91d4e56e4f356186b58c2",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b27321ab0922c7e2adc4b9e74b89ab67616d0000b273d26add214b7985fb506b3b45ab67616d0000b273d48e80ce25a64d48d9881d64ab67616d0000b273f8c91d4e56e4f356186b58c2",
+          "width": 60
+        }
+      ],
+      "name": "Parrandeando",
+      "owner": {
+        "display_name": "12124885411",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/12124885411"
+        },
+        "href": "https://api.spotify.com/v1/users/12124885411",
+        "id": "12124885411",
+        "type": "user",
+        "uri": "spotify:user:12124885411"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MTEyLDA2YTM5YTM0YjJlNzc4YzdhMGZiM2I5ODc0YjJiOWMwYzc5YjM3Zjk=",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/0MjMeSCuSxbrJfTQVkM8v3/tracks",
+        "total": 110
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:0MjMeSCuSxbrJfTQVkM8v3"
+    },
+    {
+      "collaborative": false,
+      "description": "Keep calm and focus with ambient and post-rock music.",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWZeKCadgRdKQ"
+      },
+      "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWZeKCadgRdKQ",
+      "id": "37i9dQZF1DWZeKCadgRdKQ",
+      "images": [
+        {
+          "height": null,
+          "url": "https://i.scdn.co/image/ab67706f00000002e4eadd417a05b2546e866934",
+          "width": null
+        }
+      ],
+      "name": "Deep Focus",
+      "owner": {
+        "display_name": "Spotify",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/spotify"
+        },
+        "href": "https://api.spotify.com/v1/users/spotify",
+        "id": "spotify",
+        "type": "user",
+        "uri": "spotify:user:spotify"
+      },
+      "primary_color": null,
+      "public": false,
+      "snapshot_id": "MTU4Njc5NDg3NiwwMDAwMDA3ODAwMDAwMTcxNzQ1ODRjYWMwMDAwMDE2ZDE1MWVmYjdj",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWZeKCadgRdKQ/tracks",
+        "total": 189
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:37i9dQZF1DWZeKCadgRdKQ"
+    },
+    {
+      "collaborative": false,
+      "description": "Your weekly mixtape of fresh music. Enjoy new discoveries and deep cuts chosen just for you. Updated every Monday, so save your favorites!",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/37i9dQZEVXcLWHSaGsc2En"
+      },
+      "href": "https://api.spotify.com/v1/playlists/37i9dQZEVXcLWHSaGsc2En",
+      "id": "37i9dQZEVXcLWHSaGsc2En",
+      "images": [
+        {
+          "height": null,
+          "url": "https://newjams-images.scdn.co/v2/discover-weekly/pXKpAZItQHWZO3kTItAKxCiCLl4yC9fm3KmsgPzMxB50YyIvUcUKIMMvroFLmk4_SAlCk_gg4VMCLyCPXToDbM6NsULW39Qwfu4tQNhi6LFG-OOy3nUJbGbRbzPmQhN5b4Y59xRcQLfCNYRn2t8BPQ==/NTE6MDM6NzFUNzItNDAtMA==/default",
+          "width": null
+        }
+      ],
+      "name": "Discover Weekly",
+      "owner": {
+        "display_name": "Spotify",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/spotify"
+        },
+        "href": "https://api.spotify.com/v1/users/spotify",
+        "id": "spotify",
+        "type": "user",
+        "uri": "spotify:user:spotify"
+      },
+      "primary_color": null,
+      "public": false,
+      "snapshot_id": "MjY0NDU2MDAsMDAwMDAwMDA0MWM0MzUwMWFjOTk1ZDE1MzdlM2E5Yzc3MjA5MmM5ZQ==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZEVXcLWHSaGsc2En/tracks",
+        "total": 30
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:37i9dQZEVXcLWHSaGsc2En"
+    },
+    {
+      "collaborative": false,
+      "description": "Lo último y lo mejor de la salsa. Cover: Rey Ruiz",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX4qKWGR9z0LI"
+      },
+      "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX4qKWGR9z0LI",
+      "id": "37i9dQZF1DX4qKWGR9z0LI",
+      "images": [
+        {
+          "height": null,
+          "url": "https://i.scdn.co/image/ab67706f00000002b7716b0d75e812f4716d34ec",
+          "width": null
+        }
+      ],
+      "name": "Salsa Nation",
+      "owner": {
+        "display_name": "Spotify",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/spotify"
+        },
+        "href": "https://api.spotify.com/v1/users/spotify",
+        "id": "spotify",
+        "type": "user",
+        "uri": "spotify:user:spotify"
+      },
+      "primary_color": null,
+      "public": false,
+      "snapshot_id": "MTU4NzA4NzM1NSwwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX4qKWGR9z0LI/tracks",
+        "total": 150
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:37i9dQZF1DX4qKWGR9z0LI"
+    },
+    {
+      "collaborative": false,
+      "description": "Music I often code to. Use shuffle. No requests.",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/2mtlhuFVOFMn6Ho3JmrLc2"
+      },
+      "href": "https://api.spotify.com/v1/playlists/2mtlhuFVOFMn6Ho3JmrLc2",
+      "id": "2mtlhuFVOFMn6Ho3JmrLc2",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b2731c08bca073e89ae32c68ffaaab67616d0000b27326597c053b38c9cf93f8f3a9ab67616d0000b273ade4865c142b6b196bd732e0ab67616d0000b273bb0ea18476f664df4f9fd460",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b2731c08bca073e89ae32c68ffaaab67616d0000b27326597c053b38c9cf93f8f3a9ab67616d0000b273ade4865c142b6b196bd732e0ab67616d0000b273bb0ea18476f664df4f9fd460",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b2731c08bca073e89ae32c68ffaaab67616d0000b27326597c053b38c9cf93f8f3a9ab67616d0000b273ade4865c142b6b196bd732e0ab67616d0000b273bb0ea18476f664df4f9fd460",
+          "width": 60
+        }
+      ],
+      "name": "☕ Programming",
+      "owner": {
+        "display_name": "Johan Brook",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/johanbrook"
+        },
+        "href": "https://api.spotify.com/v1/users/johanbrook",
+        "id": "johanbrook",
+        "type": "user",
+        "uri": "spotify:user:johanbrook"
+      },
+      "primary_color": null,
+      "public": false,
+      "snapshot_id": "NzcyLDkyNjQ3MmMyYjE1ZTdlMDUwMDgzMzkzYmI3YTgwMDhiZjQyNTM0NjQ=",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/2mtlhuFVOFMn6Ho3JmrLc2/tracks",
+        "total": 437
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:2mtlhuFVOFMn6Ho3JmrLc2"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/2kbravnbdQZ4Zq5V2ATDro"
+      },
+      "href": "https://api.spotify.com/v1/playlists/2kbravnbdQZ4Zq5V2ATDro",
+      "id": "2kbravnbdQZ4Zq5V2ATDro",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b27321ab0922c7e2adc4b9e74b89ab67616d0000b27342a360b852bdefb7fe45a215ab67616d0000b273a9b577e1d8590916f7f39e2bab67616d0000b273b90cd84875f6607683ac4c9c",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b27321ab0922c7e2adc4b9e74b89ab67616d0000b27342a360b852bdefb7fe45a215ab67616d0000b273a9b577e1d8590916f7f39e2bab67616d0000b273b90cd84875f6607683ac4c9c",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b27321ab0922c7e2adc4b9e74b89ab67616d0000b27342a360b852bdefb7fe45a215ab67616d0000b273a9b577e1d8590916f7f39e2bab67616d0000b273b90cd84875f6607683ac4c9c",
+          "width": 60
+        }
+      ],
+      "name": "Vallenato",
+      "owner": {
+        "display_name": "12124885411",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/12124885411"
+        },
+        "href": "https://api.spotify.com/v1/users/12124885411",
+        "id": "12124885411",
+        "type": "user",
+        "uri": "spotify:user:12124885411"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MjIsMWVhZjNiYTJjNmU1MDdlOTBlMDc5ZTllYmY2ZmU1N2ZkZDEyNDIwNw==",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/2kbravnbdQZ4Zq5V2ATDro/tracks",
+        "total": 20
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:2kbravnbdQZ4Zq5V2ATDro"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/2YcZo4VpXZUIfDHoQiVabd"
+      },
+      "href": "https://api.spotify.com/v1/playlists/2YcZo4VpXZUIfDHoQiVabd",
+      "id": "2YcZo4VpXZUIfDHoQiVabd",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b27310f6d644b06f0c01aafd6006ab67616d0000b273373f51cd425bd2594e8f0c6bab67616d0000b2739b9eb783c20af41d7011f9c2ab67616d0000b273ebf2028acd755c32ce14c73f",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b27310f6d644b06f0c01aafd6006ab67616d0000b273373f51cd425bd2594e8f0c6bab67616d0000b2739b9eb783c20af41d7011f9c2ab67616d0000b273ebf2028acd755c32ce14c73f",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b27310f6d644b06f0c01aafd6006ab67616d0000b273373f51cd425bd2594e8f0c6bab67616d0000b2739b9eb783c20af41d7011f9c2ab67616d0000b273ebf2028acd755c32ce14c73f",
+          "width": 60
+        }
+      ],
+      "name": "Salsa",
+      "owner": {
+        "display_name": "12124885411",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/12124885411"
+        },
+        "href": "https://api.spotify.com/v1/users/12124885411",
+        "id": "12124885411",
+        "type": "user",
+        "uri": "spotify:user:12124885411"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MTg1LDk4YTEwMzBlNGRhNzZmN2Y3MzZmYjhjYWY0YjA2YzY1YjI3ZTMzZjI=",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/2YcZo4VpXZUIfDHoQiVabd/tracks",
+        "total": 180
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:2YcZo4VpXZUIfDHoQiVabd"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/5kAPYgwMCaOGiaXyCYIvtu"
+      },
+      "href": "https://api.spotify.com/v1/playlists/5kAPYgwMCaOGiaXyCYIvtu",
+      "id": "5kAPYgwMCaOGiaXyCYIvtu",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b27328a90d00a2819504364880e4ab67616d0000b273587b26d49596162397b29ec8ab67616d0000b27361a5fa7facbc6ea2a64c1efeab67616d0000b273ede118b5f0e159dd18d42b90",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b27328a90d00a2819504364880e4ab67616d0000b273587b26d49596162397b29ec8ab67616d0000b27361a5fa7facbc6ea2a64c1efeab67616d0000b273ede118b5f0e159dd18d42b90",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b27328a90d00a2819504364880e4ab67616d0000b273587b26d49596162397b29ec8ab67616d0000b27361a5fa7facbc6ea2a64c1efeab67616d0000b273ede118b5f0e159dd18d42b90",
+          "width": 60
+        }
+      ],
+      "name": "Anglo",
+      "owner": {
+        "display_name": "12124885411",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/12124885411"
+        },
+        "href": "https://api.spotify.com/v1/users/12124885411",
+        "id": "12124885411",
+        "type": "user",
+        "uri": "spotify:user:12124885411"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "MTMxLDI1ZmUwYjczM2I5NjA5YWRlYzIzY2M2Y2VlYzNjZmUxNjFlZDdkZmM=",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/5kAPYgwMCaOGiaXyCYIvtu/tracks",
+        "total": 125
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:5kAPYgwMCaOGiaXyCYIvtu"
+    }
+  ],
+  "limit": 10,
+  "next": null,
+  "offset": 5,
+  "previous": "https://api.spotify.com/v1/users/12124885411/playlists?offset=0&limit=10",
+  "total": 14
+}

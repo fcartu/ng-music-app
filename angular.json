@@ -24,6 +24,7 @@
             "tsConfig": "projects/music-app/tsconfig.app.json",
             "aot": true,
             "assets": [
+              "projects/music-app/src/api",
               "projects/music-app/src/favicon.ico",
               "projects/music-app/src/assets"
             ],
@@ -89,6 +90,7 @@
             "tsConfig": "projects/music-app/tsconfig.spec.json",
             "karmaConfig": "projects/music-app/karma.conf.js",
             "assets": [
+              "projects/music-app/src/api",
               "projects/music-app/src/favicon.ico",
               "projects/music-app/src/assets"
             ],
