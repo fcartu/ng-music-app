@@ -7,6 +7,10 @@ const routes: Routes = [
   {
     path: 'home',
     loadChildren: () => import('./features/home/home.module').then(m => m.HomeModule)
+  },
+  {
+    path: 'playlists',
+    loadChildren: () => import('./features/playlists/playlists.module').then(m => m.PlaylistsModule)
   }
 ];
 
