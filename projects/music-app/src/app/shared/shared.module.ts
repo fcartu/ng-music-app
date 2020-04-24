@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
+import { MatCardModule } from '@angular/material/card';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [],
@@ -9,13 +11,25 @@ import { HttpClientModule } from '@angular/common/http';
     // Vendor
     CommonModule,
     RouterModule,
-    HttpClientModule
+    HttpClientModule,
+
+    // Flex
+    FlexLayoutModule,
+
+    // Material
+    MatCardModule,
   ],
   exports: [
     // Vendor
     CommonModule,
     RouterModule,
-    HttpClientModule
-  ]
+    HttpClientModule,
+
+    // Flex
+    FlexLayoutModule,
+
+    // Material
+    MatCardModule,
+  ],
 })
-export class SharedModule { }
+export class SharedModule {}
