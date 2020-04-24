@@ -1,23 +1,30 @@
-.sidenav-container {
+:host {
+  display: flex;
+  flex-direction: column;
   height: 100%;
 }
 
-.sidenav {
+mat-drawer {
   width: 200px;
 }
 
-.sidenav .mat-toolbar {
-  background: inherit;
+mat-drawer-container {
+  height: 100%;
 }
 
-.mat-toolbar.mat-primary {
-  position: sticky;
-  top: 0;
-  z-index: 1;
+mat-drawer-content {
+  padding: 20px;
 }
 
-mat-nav-list.a {
-  &.active {
-    filter: brightness(120%);
+// Header
+ul li {
+  list-style: none;
+}
+
+// Sidebar
+:host {
+  .mat-icon {
+    vertical-align: middle;
+    margin-right: 20px;
   }
 }

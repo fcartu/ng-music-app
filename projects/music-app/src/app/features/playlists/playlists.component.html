@@ -1,5 +1,26 @@
-<ul *ngFor="let playlist of playlists">
-  <li>
-    {{ playlist.name }}
-  </li>
-</ul>
+<h1 class="mat-headline">Playlists</h1>
+
+<div fxLayout="row wrap" fxLayoutGap="10px" fxLayoutAlign="start">
+  <ng-container *ngFor="let playlist of playlists">
+    <mat-card
+      class="card-item"
+      fxFlex="0 1 calc(25% - 10px)"
+      fxFlex.lt-md="0 1 calc(50% - 10px)"
+      fxFlex.lt-sm="100%"
+    >
+      <mat-card-header>
+        <mat-card-title class="card-title">
+          {{
+            playlist.name.length > 10
+              ? (playlist.name | slice: 0:9) + '...'
+              : playlist.name
+          }}
+        </mat-card-title>
+      </mat-card-header>
+      <img [src]="playlist.imageUrl" mat-card-lg-image />
+      <mat-card-content>
+        {{ (playlist.description | slice: 0:50) + '...' }}
+      </mat-card-content>
+    </mat-card>
+  </ng-container>
+</div>
