@@ -4,6 +4,8 @@ import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { MatCardModule } from '@angular/material/card';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatListModule } from '@angular/material/list';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [],
@@ -18,6 +20,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
     // Material
     MatCardModule,
+    MatListModule,
+    MatIconModule,
   ],
   exports: [
     // Vendor
@@ -30,6 +34,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
     // Material
     MatCardModule,
+    MatListModule,
+    MatIconModule,
   ],
 })
 export class SharedModule {}

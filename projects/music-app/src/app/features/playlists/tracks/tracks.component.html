@@ -1,0 +1,33 @@
+<div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="space-around start">
+  <div fxFlex="20">
+    <div
+      class="album-details"
+      fxLayout="column"
+      fxLayout.xs="row"
+      fxLayoutGap="10px"
+    >
+      <img fxFlex="50" src="{{ playlist.imageUrl }}" alt="album cover" />
+      <div fxFlex="50" fxLayout="column" fxLayoutAlign="center start">
+        <span class="mat-headline">{{ playlist.name }}</span>
+        <span class="mat-h4">{{ playlist.tracks.total }} songs</span>
+        <span class="mat-caption">by {{ playlist.owner.displayName }}</span>
+      </div>
+    </div>
+  </div>
+  <mat-list fxFlex="80" class="mat-nav-list">
+    <mat-list-item *ngFor="let track of tracks">
+      <mat-icon mat-list-icon>music_note</mat-icon>
+      <div mat-line fxLayout="row">
+        <div fxFlex="80">
+          {{ track.name }}
+        </div>
+        <div fxFlex="20">
+          {{ track.duration_ms | date: 'mm:ss' }}
+        </div>
+      </div>
+      <div mat-line class="artist-album-section">
+        {{ track.artist.artistName }} - {{ track.album.albumName }}
+      </div>
+    </mat-list-item>
+  </mat-list>
+</div>
